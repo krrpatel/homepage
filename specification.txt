@@ -1,0 +1,37 @@
+HTML Tags Used:
+html – Root element of all pages
+head – Contains metadata, styles, and scripts
+body – Contains visible page content
+div – Used for layout, grouping content, loader, alerts, and modal structure
+img – Used to display the profile image
+a – Used for navigation links between pages
+h1 – Used for modal title
+h2 – Used for About page heading
+h3 – Used for page titles
+h4 – Used for section headings
+p – Used for descriptive text
+ul – Used to list interests
+li – Used inside unordered lists
+form – Used for contact message submission
+input – Used for email and subject fields
+textarea – Used for message input
+button – Used for reset, submit, and modal actions
+label – Used to label form inputs
+small – Used for link metadata text
+
+CSS Properties Used:
+background-color – Used for dark theme styling
+color – Used to control text color
+border – Used to define element boundaries
+border-radius – Used for rounded profile image and containers
+padding – Used for spacing inside elements
+margin – Used for spacing between elements
+max-width – Used to limit content width
+display – Used for layout control
+transition – Used for hover effects
+
+JavaScript Description:
+JavaScript is used to control a loading spinner, validate form inputs, dynamically display Bootstrap alerts, handle modal confirmation, and generate a mailto link to send user messages.
+
+Bootstrap Description:
+Bootstrap is used for responsive layout, buttons, forms, list groups, modal dialogs, alerts, spinners, and overall mobile-friendly styling.

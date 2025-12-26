@@ -1,0 +1,136 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0d0d0d;
+    color: #ffffff;
+}
+
+/* Spinner */
+#loader {
+    position: fixed;
+    inset: 0;
+    background: #0d0d0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+/* Profile */
+.profile-img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+}
+
+/* Link buttons */
+.link-btn {
+    background: #1a1a1a;
+    color: #fff;
+    border-radius: 12px;
+    padding: 14px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 1px solid #333;
+}
+
+.link-btn:hover {
+    background: #ffffff;
+    color: #000;
+    transform: translateY(-2px);
+}
+
+.container {
+    max-width: 420px;
+}
+
+.list-group-item {
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #333;
+    margin-bottom: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.list-group-item:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Button wrapper (optional spacing) */
+.btn-group-custom {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+/* Common button style */
+.btn-custom {
+    flex: 1;
+    padding: 12px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid #333;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+/* Submit button hover */
+.submitbtn:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+}
+
+/* Reset button hover */
+.resetbtn:hover {
+    background-color: #ff4d4d;
+    color: #ffffff;
+    border-color: #ff4d4d;
+}
+
+/* Remove default focus outline */
+.btn-custom:focus {
+    box-shadow: none;
+}
+
+/* Dark modal container */
+.modal-dark {
+    background-color: #121212;
+    color: #ffffff;
+    border-radius: 14px;
+}
+
+/* Header & footer cleanup */
+.modal-header,
+.modal-footer {
+    background-color: transparent;
+}
+
+/* Modal title */
+.modal-title {
+    font-weight: 600;
+}
+
+/* Modal body text */
+.modal-body h5 {
+    color: #cccccc;
+}
+
+/* Buttons spacing */
+.modal-footer .btn {
+    min-width: 100px;
+}
+
+.about-box {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    max-width: 450px;
+    margin: 0 auto;
+}

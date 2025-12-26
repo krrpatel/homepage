@@ -1,3 +1,31 @@
+/* Mobile zoom-in effect */
+@media (max-width: 576px) {
+
+    body {
+        font-size: 17px;
+    }
+
+    .main-container {
+        transform: scale(1.08);
+        transform-origin: top center;
+    }
+
+    .profile-img {
+        width: 115px;
+        height: 115px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .link-btn,
+    .list-group-item {
+        font-size: 16px;
+        padding: 18px;
+    }
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #0d0d0d;

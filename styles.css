@@ -1,11 +1,19 @@
 /* Mobile zoom-in effect */
 /* Center index page vertically on mobile */
+.profile-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-width: 576px) {
     .index-center {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;   /* 👈 THIS IS THE KEY */
+        text-align: center;
     }
 }
 

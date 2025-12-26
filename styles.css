@@ -1,12 +1,12 @@
 /* Mobile zoom-in effect */
-@media (max-width: 576px) {
+@media (max-width: 420px) {
 
     body {
         font-size: 17px;
     }
 
     .main-container {
-        transform: scale(1.08);
+        transform: scale(0.95);
         transform-origin: top center;
     }
 
